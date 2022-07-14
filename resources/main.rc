@@ -230,8 +230,8 @@ END
 //
 #include "..\config.h"
 ROBOTO_FN TTF ROBOTO_FN
-BOTH11_N JPG BOTH11_N
-DIAL_N PNG DIAL_N
+BOTH11_FN JPG BOTH11_FN
+DIAL_FN PNG DIAL_FN
 /////////////////////////////////////////////////////////////////////////////
 #endif    // not APSTUDIO_INVOKED
 

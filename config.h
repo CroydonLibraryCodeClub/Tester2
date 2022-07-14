@@ -51,7 +51,6 @@
 #define APP_COPY_AUV3 0
 #define APP_SIGNAL_VECTOR_SIZE 64
 
-#define ROBOTO_FN "Roboto-Regular.ttf"
 #define ROBOTO_FN "rx-script.ttf"
-#define BOTH11 "Both11.jpg"
-#define DIAL "Dial.png"
+#define BOTH11_FN "Both11.jpg"
+#define DIAL_FN "Dial.png"
