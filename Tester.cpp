@@ -20,7 +20,7 @@ Tester::Tester(const InstanceInfo& info)
     const IRECT b = pGraphics->GetBounds();
    
     pGraphics->AttachControl(new ITextControl(b.GetMidVPadded(450).GetVShifted(165).GetHShifted(0), "R", IText(40,COLOR_WHITE)));
-    IBitmap& bitmap = pGraphics->LoadBitmap(DIAL_FN);
+    IBitmap bitmap = pGraphics->LoadBitmap(DIAL_FN);
     pGraphics->AttachControl(new IBKnobRotaterControl(b.GetCentredInside(170).GetVShifted(-15), bitmap, kGain));
   
   
